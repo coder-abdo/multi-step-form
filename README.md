@@ -1,45 +1,58 @@
-# multi-step-form
+# Frontend Mentor - Multi-step form solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Multi-step form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Recommended IDE Setup
+## Table of contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-## Type Support for `.vue` Imports in TS
+## Overview
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### The challenge
 
-## Customize configuration
+Users should be able to:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Complete each step of the sequence
+- Go back to a previous step to update their selections
+- See a summary of their selections on the final step and confirm their order
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- Receive form validation messages if:
+  - A field has been missed
+  - The email address is not formatted correctly
+  - A step is submitted, but no selection has been made
 
-## Project Setup
+### Screenshot
 
-```sh
-bun install
-```
+![challenge screenshot](./src/assets/images/projectscreenshot.png)
 
-### Compile and Hot-Reload for Development
+### Links
 
-```sh
-bun dev
-```
+- Solution URL: [frontend mentor solution URL](https://www.frontendmentor.io/solutions/multi-step-form-npGYkY3p7X)
+- Live Site URL: [Vercel live site URL](https://multi-step-form-henna-chi.vercel.app/)
 
-### Type-Check, Compile and Minify for Production
+## My process
 
-```sh
-bun build
-```
+### Built with
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Typescript
+- Mobile-first workflow
+- [Vue.js](https://vuejs.org/) - JS framework
+- [Pinia.js](https://pinia.vuejs.org/) - Vue State-Management Library
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
 
-```sh
-bun test:unit
-```
+## Author
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-bun lint
-```
+- Website - [my portfolio](https://abdelmonaem-portfolio.vercel.app/)
+- Frontend Mentor - [@coder-abdo](https://www.frontendmentor.io/profile/coder-abdo)
+- Linkedin - [Abdelmonaem Shahat](https://www.linkedin.com/in/abdelmonaem-shahat/)
